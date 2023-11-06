@@ -1,0 +1,21 @@
+main {
+    align-items: center;
+}
+
+.contact-list li {
+    line-height: 2rem;
+}
+
+.google-map {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border: none;
+}
+
+@media (max-width: 500px) {
+    .google-map {
+        width: 90vw;
+        height: 70vw;
+    }
+}

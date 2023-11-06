@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --detail--color--light: #3cb371;
+    --bg--color--light: #fafafa;
+    --text--color--light: black;
+    --detail--color--dark: #3cb371;
+    --bg--color--dark: #343541;
+    --text--color--dark: #fafafa;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: large;
+}
+
+/* navigergin start */
+
+header {
+    background-color: var(--detail--color--light);
+    padding: 1rem 0;
+}
+
+nav ul {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.thispage {
+    color: var(--bg--color--dark);
+    border-bottom: 2px solid var(--bg--color--dark);
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 2rem;
+    transition: transform 2s;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: var(--bg--color--light);
+}
+
+/* navigering end */
+/* main start */
+
+main {
+    padding: 0 1rem;
+    margin: 0 auto 2rem auto;
+    max-width: 1200px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text--color--light);
+    margin-bottom: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#first-section {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+}
+
+.first-section-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section-boxes img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px gray;
+    margin: auto;
+}
+
+.first-section-box-2 a {
+    margin-top: 25%;
+}
+
+button {
+    background-color: var(--detail--color--light);
+    color: var(--bg--color--light);
+    width: 40%;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    text-align: start;
+    margin-top: auto;
+    transition: opacity 1s;
+    border-radius: 5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px gray;
+}
+
+button:hover,
+i:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* cv-modal start */
+
+.cv-modal {
+    display: none;
+}
+
+.modal:target {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.close-tag {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+    position: sticky;
+    float: right;
+    top: 0;
+    right: 2%;
+    z-index: 1;
+}
+
+.modal-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80vw;
+    height: 70vh;
+    overflow: scroll;
+    background-color: var(--bg--color--light);
+    padding: 0 0 5% 5%;
+}
+
+.sticky-h2 {
+    text-align: center;
+    position: sticky;
+    top: 1%;
+}
+
+.modal-content p,
+.modal-content ul {
+    margin-bottom: 1rem;
+}
+
+.modal-content h4 {
+    color: #0074D9;
+}
+
+/* cv-modal end */
+/* projekt start */
+
+#second-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.8rem;
+}
+
+.project-card {
+    padding: 1rem;
+    height: 300px;
+    color: var(--text--color--light);
+    box-shadow: 2px 2px 5px gray;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    border-radius: 2px;
+}
+
+.project-card:hover {
+    cursor: auto;
+}
+
+span {
+    background-color: var(--detail--color--light);
+    border-radius: 2px;
+}
+
+.project-card-1 {
+    background-color: #EDEDED;
+    background-image: url(../images/forTheDreamLandingpage.jpg);
+    background-size: cover;
+}
+
+.project-card-2 {
+    background-color: #444444;
+    background-image: url(../images/spelet.png);
+
+}
+
+.project-card-3 {
+    background-color: #0074D9;
+}
+
+.project-card-4 {
+    background-color: #FF5733;
+}
+
+/* empty-card-modal start */
+
+.empty-card-modal {
+    display: none;
+}
+
+.empty-card-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 150px;
+    background-color: var(--bg--color--light);
+
+}
+
+.empty-card-modal-content a {
+    margin-right: 1rem;
+}
+
+.empty-card-modal-content p {
+    margin: 2rem;
+}
+
+/* empty-card-modal end */
+/* projekt end */
+/* main end */
+/* footer start */
+
+footer {
+    background-color: var(--detail--color--light);
+    padding: 1rem;
+    margin-top: auto;
+    width: 100vw;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.links a {
+    font-size: 2rem;
+}
+
+.links i {
+    transition: opacity 1s;
+}
+
+/* footer end */
+
+/* media start */
+
+@media (max-width: 800px) {
+    .first-section-boxes img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 520px) {
+    /* header start */
+
+    nav ul li {
+        font-size: 1.5rem;
+        margin: 0.4rem;
+    }
+
+    /* header end */
+    /* main start */
+
+    #first-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section-box-2 {
+        text-align: center;
+    }
+
+    #second-section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-card {
+        padding: 0.5rem;
+    }
+
+    .project-card button {
+        width: 50%;
+    }
+
+    /* main end */
+}
+
+@media (prefers-color-scheme: dark) {
+    /* navigergin start */
+
+    body,
+    .modal-content,
+    .empty-card-modal-content {
+        background-color: var(--bg--color--dark);
+    }
+
+    .thispage {
+        color: var(--bg--color--light);
+        border-bottom: 2px solid var(--bg--color--light);
+    }
+
+    a {
+        color: var(--bg--color--dark);
+    }
+
+    /* navigering end */
+    /* main start */
+    h1,
+    h2,
+    h3,
+    p,
+    li,
+    .close-tag {
+        color: var(--text--color--dark);
+    }
+
+    button, .project-card, .first-section-boxes img {
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    #second-section span {
+        color: var(--text--color--light);
+    }
+
+    /* cv-modal start */
+
+    .close-tag {
+        opacity: 0.4;
+    }
+
+    .modal-content, .empty-card-modal-content {
+        border: 1px solid var(--text--color--dark);
+    }
+
+    /* cv-modal end */
+    /* main end */
+}
