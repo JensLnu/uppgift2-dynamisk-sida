@@ -1,0 +1,195 @@
+{
+    "contactInfo": {
+        "name": "Jens Bengtsson",
+        "email": "Jens.Bengtsson91@gmail.com",
+        "teleNr": "+46702859483"
+    },
+    "education": {
+        "school": {
+            "Chas": {
+                "title": "Fullstack JavaScript Developer",
+                "courses": [
+                    "IT-teach&operations",
+                    "Web developing & web technologies"
+                ],
+                "dates": "ongoing"
+            },
+            "courses": [
+                {
+                    "title": "Web Technology 3",
+                    "contents": [
+                        "JavaScript",
+                        "XML",
+                        "JSON",
+                        "APIs",
+                        "SEO"
+                    ],
+                    "points": "7.5 hp",
+                    "dates": "august - november 2023"
+                },
+                {
+                    "title": "Programing in Java",
+                    "contents": [
+                        "basic programing in Java"
+                    ],
+                    "points": "7.5 hp",
+                    "dates": "march - may 2023"
+                },
+                {
+                    "title": "Web technology 2",
+                    "contents": [
+                        "JavaScript",
+                        "DOM"
+                    ],
+                    "points": "7.5 hp",
+                    "dates": "march - may 2023"
+                }
+            ],
+            "Linnéuniversity": {
+                "title": "Interaction designer",
+                "courses": [
+                    {
+                        "title": "Web technology",
+                        "contents": "html & css",
+                        "points": "7.5 hp"
+                    },
+                    {
+                        "title": "Graphical tools",
+                        "contents": "illustrator, photo shop & blender",
+                        "points": "7.5 hp"
+                    },
+                    {
+                        "title": "Introduction to interaction design",
+                        "contents": "front-end developing & ux design",
+                        "points": "15 hp"
+                    }
+                ],
+                "dates": "september 2022 - january 2023"
+            },
+            "SCoTT": {
+                "title": "Scandinavian Collage of Travel and Tourism",
+                "courses": [
+                    "Ski Technique",
+                    "Methodology",
+                    "Customer Service & Tourism",
+                    "Swedish Ski Instructor level 4",
+                    "Swedish Snowboard Instructor level 2"
+                ],
+                "dates": "september 2012 - may 2014"
+            },
+            "Carpentry": {
+                "title": "Distance Studding Carpentry",
+                "courses": [
+                    "Theoretically carpentry within wood"
+                ],
+                "dates": "april 2011 - april 2012"
+            },
+            "Gymnasieskola": {
+                "title": "Falkenbergs Gymnasieskola (High School Degree)",
+                "courses": [
+                    "Business and Administration"
+                ],
+                "dates": "august 2007 - june 2010"
+            }
+        }
+    },
+    "experiences": {
+        "Bygghjalp": {
+            "companyName": "Bygghjälp",
+            "location": "Falkenberg, Sweden",
+            "title": "Construction Industry",
+            "chores": [
+                "Planning projects with customers",
+                "Renovations and house building"
+            ],
+            "dates": "march 2011 - in between seasons - current"
+        },
+        "BolgenBygg": {
+            "companyName": "Bølgen Bygg AS",
+            "location": "Stadlandet, Norway",
+            "title": "Construction Industry",
+            "chores": "Renovations and house building",
+            "dates": "september 2018 - march 2020"
+        },
+        "skiSeasonVerbier": {
+            "companyName": "La fantastic",
+            "location": "Verbier, Schweiz",
+            "title": "Ski instructor",
+            "chores": "Part time Ski instructor",
+            "dates": "december 2017 - april 2018"
+        },
+        "Revelstoke": {
+            "location": "Revelstoke BC, Canada",
+            "chores": "Ski bum season",
+            "dates": "december 2016 - april 2017"
+        },
+        "SkistarHemsedal2": {
+            "companyName": "Skistar AB",
+            "location": "Hemsedal, Norway",
+            "title": "ski & snowboardinstructor",
+            "chores": [
+                {
+                    "instructor": {
+                        "title": "Ski- & Snowboard Instructor",
+                        "chores": [
+                            "offpist guiding",
+                            "group lessens",
+                            "private lessons"
+                        ]
+                    }
+                },
+                {
+                    "SkiWorkshop": {
+                        "title": "SkiWorkshop",
+                        "chores": [
+                            "tuning skis/snowboards",
+                            "repairs",
+                            "waxing"
+                        ]
+                    }
+                }
+            ],
+            "dates": "november 2015 - may 2016"
+        },
+        "SkistarHemsedal1": {
+            "companyName": "Skistar AB",
+            "location": "Hemsedal, Norway",
+            "title": "ski & snowboardinstructor",
+            "chores": [
+                "offpist guiding",
+                "group lessens",
+                "private lessons"
+            ],
+            "dates": "november 2014 - may 2015"
+        },
+        "LaPoint": {
+            "companyName": "La point",
+            "location": "Norway",
+            "title": "camp worker",
+            "chores": [
+                "Socialized with customers and coordinate activities",
+                "teaching surfing at level 1"
+            ],
+            "dates": "june - august 2014"
+        },
+        "SkistarTandådalen": {
+            "companyName": "Skistar AB",
+            "location": "Tandådalen, Sweden",
+            "title": "Ski- & Snowboard Instructor",
+            "chores": "Ski- & Snowboard lessons",
+            "dates": "december 2013 - april 2014"
+        },
+        "Klappen": {
+            "companyName": "Kläppen Ski Resort",
+            "location": "Kläppen, Sweden",
+            "title": "Ski Instructor",
+            "chores": "ski lessons",
+            "dates": "december 2012 - april 2013"
+        },
+        "StAnton": {
+            "location": "St Anton, Austria",
+            "chores": "Ski bum season",
+            "dates": "november 2010 - april 2011"
+        }
+    }
+}
