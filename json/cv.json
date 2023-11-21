@@ -76,14 +76,14 @@
             ],
             "dates": "september 2012 - may 2014"
         },
-        "Carpentry": {
+        "carpentry": {
             "title": "Distance Studding Carpentry",
             "courses": [
                 "Theoretically carpentry within wood"
             ],
             "dates": "april 2011 - april 2012"
         },
-        "Gymnasieskola": {
+        "gymnasieskola": {
             "title": "Falkenbergs Gymnasieskola (High School Degree)",
             "courses": [
                 "Business and Administration"
@@ -92,7 +92,7 @@
         }
     },
     "experiences": {
-        "Bygghjalp": {
+        "bygghjalp": {
             "companyName": "Bygghjälp",
             "location": "Falkenberg, Sweden",
             "title": "Construction Industry",
@@ -102,54 +102,47 @@
             ],
             "dates": "march 2011 - in between seasons - current"
         },
-        "BolgenBygg": {
+        "bolgenBygg": {
             "companyName": "Bølgen Bygg AS",
             "location": "Stadlandet, Norway",
             "title": "Construction Industry",
-            "chores": "Renovations and house building",
+            "chores": [
+                "Renovations and house building"
+            ],
             "dates": "september 2018 - march 2020"
         },
         "skiSeasonVerbier": {
             "companyName": "La fantastic",
             "location": "Verbier, Schweiz",
             "title": "Ski instructor",
-            "chores": "Part time Ski instructor",
+            "chores": [
+                "Part time Ski instructor"
+            ],
             "dates": "december 2017 - april 2018"
         },
-        "Revelstoke": {
+        "revelstoke": {
+            "companyName": "Ski season",
             "location": "Revelstoke BC, Canada",
-            "chores": "Ski bum season",
+            "chores": [
+                "Ski bum season"
+            ],
             "dates": "december 2016 - april 2017"
         },
-        "SkistarHemsedal2": {
+        "skistarHemsedal2": {
             "companyName": "Skistar AB",
             "location": "Hemsedal, Norway",
-            "title": "ski & snowboardinstructor",
+            "title": "ski, snowboardinstructor & SkiWorkshop",
             "chores": [
-                {
-                    "instructor": {
-                        "title": "Ski- & Snowboard Instructor",
-                        "chores": [
-                            "offpist guiding",
-                            "group lessens",
-                            "private lessons"
-                        ]
-                    }
-                },
-                {
-                    "SkiWorkshop": {
-                        "title": "SkiWorkshop",
-                        "chores": [
-                            "tuning skis/snowboards",
-                            "repairs",
-                            "waxing"
-                        ]
-                    }
-                }
+                "offpist guiding",
+                "group lessens",
+                "private lessons",
+                "tuning skis/snowboards",
+                "repairs",
+                "waxing"
             ],
             "dates": "november 2015 - may 2016"
         },
-        "SkistarHemsedal1": {
+        "skistarHemsedal1": {
             "companyName": "Skistar AB",
             "location": "Hemsedal, Norway",
             "title": "ski & snowboardinstructor",
@@ -160,7 +153,7 @@
             ],
             "dates": "november 2014 - may 2015"
         },
-        "LaPoint": {
+        "laPoint": {
             "companyName": "La point",
             "location": "Norway",
             "title": "camp worker",
@@ -170,23 +163,30 @@
             ],
             "dates": "june - august 2014"
         },
-        "SkistarTandådalen": {
+        "skistarTandådalen": {
             "companyName": "Skistar AB",
             "location": "Tandådalen, Sweden",
             "title": "Ski- & Snowboard Instructor",
-            "chores": "Ski- & Snowboard lessons",
+            "chores": [
+                "Ski- & Snowboard lessons"
+            ],
             "dates": "december 2013 - april 2014"
         },
-        "Klappen": {
+        "klappen": {
             "companyName": "Kläppen Ski Resort",
             "location": "Kläppen, Sweden",
             "title": "Ski Instructor",
-            "chores": "ski lessons",
+            "chores": [
+                "ski lessons"
+            ],
             "dates": "december 2012 - april 2013"
         },
-        "StAnton": {
+        "stAnton": {
+            "companyName": "Ski season",
             "location": "St Anton, Austria",
-            "chores": "Ski bum season",
+            "chores": [
+                "Ski bum season"
+            ],
             "dates": "november 2010 - april 2011"
         }
     }
