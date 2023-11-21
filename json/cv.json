@@ -5,92 +5,90 @@
         "teleNr": "+46702859483"
     },
     "education": {
-        "school": {
-            "Chas": {
-                "title": "Fullstack JavaScript Developer",
-                "courses": [
-                    "IT-teach&operations",
-                    "Web developing & web technologies"
+        "chas": {
+            "title": "Fullstack JavaScript Developer",
+            "courses": [
+                "IT-teach&operations",
+                "Web developing & web technologies"
+            ],
+            "dates": "ongoing"
+        },
+        "courses": [
+            {
+                "title": "Web Technology 3",
+                "contents": [
+                    "JavaScript",
+                    "XML",
+                    "JSON",
+                    "APIs",
+                    "SEO"
                 ],
-                "dates": "ongoing"
+                "points": "7.5 hp",
+                "dates": "august - november 2023"
             },
+            {
+                "title": "Programing in Java",
+                "contents": [
+                    "basic programing in Java"
+                ],
+                "points": "7.5 hp",
+                "dates": "march - may 2023"
+            },
+            {
+                "title": "Web technology 2",
+                "contents": [
+                    "JavaScript",
+                    "DOM"
+                ],
+                "points": "7.5 hp",
+                "dates": "march - may 2023"
+            }
+        ],
+        "linnéuniversity": {
+            "title": "Interaction designer",
             "courses": [
                 {
-                    "title": "Web Technology 3",
-                    "contents": [
-                        "JavaScript",
-                        "XML",
-                        "JSON",
-                        "APIs",
-                        "SEO"
-                    ],
-                    "points": "7.5 hp",
-                    "dates": "august - november 2023"
+                    "title": "Web technology",
+                    "contents": "html & css",
+                    "points": "7.5 hp"
                 },
                 {
-                    "title": "Programing in Java",
-                    "contents": [
-                        "basic programing in Java"
-                    ],
-                    "points": "7.5 hp",
-                    "dates": "march - may 2023"
+                    "title": "Graphical tools",
+                    "contents": "illustrator, photo shop & blender",
+                    "points": "7.5 hp"
                 },
                 {
-                    "title": "Web technology 2",
-                    "contents": [
-                        "JavaScript",
-                        "DOM"
-                    ],
-                    "points": "7.5 hp",
-                    "dates": "march - may 2023"
+                    "title": "Introduction to interaction design",
+                    "contents": "front-end developing & ux design",
+                    "points": "15 hp"
                 }
             ],
-            "Linnéuniversity": {
-                "title": "Interaction designer",
-                "courses": [
-                    {
-                        "title": "Web technology",
-                        "contents": "html & css",
-                        "points": "7.5 hp"
-                    },
-                    {
-                        "title": "Graphical tools",
-                        "contents": "illustrator, photo shop & blender",
-                        "points": "7.5 hp"
-                    },
-                    {
-                        "title": "Introduction to interaction design",
-                        "contents": "front-end developing & ux design",
-                        "points": "15 hp"
-                    }
-                ],
-                "dates": "september 2022 - january 2023"
-            },
-            "SCoTT": {
-                "title": "Scandinavian Collage of Travel and Tourism",
-                "courses": [
-                    "Ski Technique",
-                    "Methodology",
-                    "Customer Service & Tourism",
-                    "Swedish Ski Instructor level 4",
-                    "Swedish Snowboard Instructor level 2"
-                ],
-                "dates": "september 2012 - may 2014"
-            },
-            "Carpentry": {
-                "title": "Distance Studding Carpentry",
-                "courses": [
-                    "Theoretically carpentry within wood"
-                ],
-                "dates": "april 2011 - april 2012"
-            },
-            "Gymnasieskola": {
-                "title": "Falkenbergs Gymnasieskola (High School Degree)",
-                "courses": [
-                    "Business and Administration"
-                ],
-                "dates": "august 2007 - june 2010"
-            }
+            "dates": "september 2022 - january 2023"
+        },
+        "SCoTT": {
+            "title": "Scandinavian Collage of Travel and Tourism",
+            "courses": [
+                "Ski Technique",
+                "Methodology",
+                "Customer Service & Tourism",
+                "Swedish Ski Instructor level 4",
+                "Swedish Snowboard Instructor level 2"
+            ],
+            "dates": "september 2012 - may 2014"
+        },
+        "Carpentry": {
+            "title": "Distance Studding Carpentry",
+            "courses": [
+                "Theoretically carpentry within wood"
+            ],
+            "dates": "april 2011 - april 2012"
+        },
+        "Gymnasieskola": {
+            "title": "Falkenbergs Gymnasieskola (High School Degree)",
+            "courses": [
+                "Business and Administration"
+            ],
+            "dates": "august 2007 - june 2010"
         }
     },
     "experiences": {
