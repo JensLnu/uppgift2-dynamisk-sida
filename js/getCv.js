@@ -18,7 +18,7 @@ async function getCvFromJson() {
 // skapar element med innehållet från cv.json i önskad ordning
 function renderJsonObj(jsonObj) {
     // kontrollerar så att inte inläsningen görs flera gånger
-    if (cvModal.textContent == '') {
+    if (cvModal.textContent == '') { // BUGGAAR LITE FIXA SENARE!!---------------------------------------------------------
         // kontaktinformation section
         createNewElement('h3', 'Contact Info', cvModal);
         const contactUl = createNewElement('ul', null, cvModal);
