@@ -94,7 +94,7 @@ function createEducationSection(header, obj) {
 
 function createExperienceSection(obj) {
     createHeader(obj.companyName);
-    obj.title ? createNewElement('p', `${obj.title} in ${obj.location}`, cvModal) : createNewElement('p', `In ${obj.location}`, cvModal);
+    obj.title ? createNewElement('p', `${obj.title} in ${obj.location}`, cvModal) : createNewElement('p', obj.location, cvModal);
     const ul = createNewElement('ul', null, cvModal);
     obj.chores.forEach(chore => {
         createNewElement('li', chore, ul);
