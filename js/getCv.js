@@ -1,3 +1,4 @@
+// referens till modalen där datan ska presenteras
 const cvModal = document.getElementById("created-modal-content");
 
 // hämtar json data från cv.json och gör det till ett js objekt
