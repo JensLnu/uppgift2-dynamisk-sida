@@ -54,17 +54,8 @@ function renderJsonObj(jsonObj) {
 
         // erfarenhets sectionen
         createNewElement('h3', 'Experiences', cvModal);
-        const exp = jsonObj.experiences;
-        createExperienceSection(exp.bygghjalp);
-        createExperienceSection(exp.bolgenBygg);
-        createExperienceSection(exp.skiSeasonVerbier);
-        createExperienceSection(exp.revelstoke);
-        createExperienceSection(exp.skistarHemsedal2);
-        createExperienceSection(exp.skistarHemsedal1);
-        createExperienceSection(exp.laPoint);
-        createExperienceSection(exp.skistarTandådalen);
-        createExperienceSection(exp.klappen);
-        createExperienceSection(exp.stAnton);
+        // skapar en array med objekten i jsonObj.experiences
+        Object.values(jsonObj.experiences).forEach(experience => createExperienceSection(experience));
     }
 }
 
