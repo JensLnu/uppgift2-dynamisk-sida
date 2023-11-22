@@ -211,18 +211,22 @@ span {
 
 .project-card-1 {
     background-color: #EDEDED;
-    background-image: url(../images/forTheDreamLandingpage.jpg);
+    background-image: url(../images/projects/forTheDreamLandingpage.jpg);
     background-size: cover;
 }
 
 .project-card-2 {
     background-color: #444444;
-    background-image: url(../images/spelet.png);
+    background-image: url(../images/projects/spelet.png);
 
 }
 
 .project-card-3 {
     background-color: #0074D9;
+    background-image: url(../images/projects/codeJamGameStation.png);
+    background-size: cover;
+    background-position: top;
+
 }
 
 .project-card-4 {
@@ -358,7 +362,9 @@ li {
         color: var(--text--color--dark);
     }
 
-    .button, .project-card, .first-section-boxes img {
+    .button,
+    .project-card,
+    .first-section-boxes img {
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
     }
 
@@ -372,7 +378,8 @@ li {
         opacity: 0.4;
     }
 
-    .modal-content, .empty-card-modal-content {
+    .modal-content,
+    .empty-card-modal-content {
         border: 1px solid var(--text--color--dark);
     }
 
