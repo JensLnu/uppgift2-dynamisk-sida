@@ -26,7 +26,7 @@ function renderJsonObj(jsonObj) {
         createNewElement('li', jsonObj.contactInfo.email, contactUl);
         createNewElement('li', jsonObj.contactInfo.teleNr, contactUl);
 
-        // education section
+        // utbildnings section
         createNewElement('h3', 'Education', cvModal);
         createEducationSection('Chas Academy', jsonObj.education.chas);
 
