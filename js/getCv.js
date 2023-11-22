@@ -1,5 +1,6 @@
 const cvModal = document.getElementById("created-modal-content");
 
+// hämtar json data från cv.json och gör det till ett js objekt
 async function getCvFromJson() {
     console.log('start getCvFromJson');
     const respone = await fetch('../json/cv.json');
