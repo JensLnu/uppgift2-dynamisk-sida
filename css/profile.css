@@ -119,15 +119,15 @@
 }
 
 .img-container img:nth-of-type(8) {
-    top: 135vw;
+    top: 140vw;
 }
 
 .img-container img:nth-of-type(9) {
-    top: 150vw;
+    top: 160vw;
 }
 
 .img-container img:nth-of-type(10) {
-    top: 165vw;
+    top: 180vw;
 }
 
 .article-profile p {
@@ -172,14 +172,14 @@
     }
 
     .img-container img:nth-of-type(8) {
-        top: 1822px;
+        top: 1890px;
     }
 
     .img-container img:nth-of-type(9) {
-        top: 2025px;
+        top: 2160px;
     }
 
     .img-container img:nth-of-type(10) {
-        top: 2227px;
+        top: 2430px;
     }
 }
