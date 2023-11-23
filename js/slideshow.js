@@ -7,44 +7,43 @@ const closingTag = document.getElementById('close-tag-slideshow');
 
 let arrayIndex = 0;
 
-images.forEach(img => {
-    img.addEventListener("click", showImageFirstTime)
-});
 
 leftArrow.addEventListener("click", moveLeft);
 rightArrow.addEventListener("click", moveRight);
 closingTag.addEventListener("click", closeSlideshow);
+images.forEach(img => {
+    img.addEventListener("click", showImageFirstTime)
+});
 
+// visar slideshown och den bild som användaren klickat på
 function showImageFirstTime(e) {
-    console.log('start showImageFirstTime');
-
     slideshowContainer.classList.remove('display-none');
     const imagesArray = Object.values(images);
     arrayIndex = imagesArray.indexOf(e.target);
     slideshowImage.src = images[imagesArray.indexOf(e.target)].src;
 }
 
+// visar aktuell bild
 function showImage(i) {
-    console.log('start showImage');
     arrayIndex = i;
     slideshowImage.src = images[i].src;
 }
 
+// byter till föregående bild
 function moveLeft() {
-    console.log('start moveLeft');
     arrayIndex--;
     if (arrayIndex < 0) arrayIndex = images.length - 1;
     showImage(arrayIndex);
 }
 
+// byter till nästa bild 
 function moveRight() {
-    console.log('start moveRight');
     arrayIndex++;
     if (arrayIndex > images.length - 1) arrayIndex = 0;
     showImage(arrayIndex);
 }
 
+// stänger slideshown
 function closeSlideshow() {
-    console.log('start closeSlideshow');
     slideshowContainer.classList.add('display-none');
 }
