@@ -115,7 +115,6 @@ h3 {
     padding: 0.2rem 0.5rem;
     text-align: start;
     margin-top: auto;
-    transition: opacity 1s;
     border-radius: 5px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
@@ -126,6 +125,7 @@ h3 {
 i:hover, .btn-hover:hover {
     opacity: 0.7;
     cursor: pointer;
+    transition: opacity 1s;
 }
 
 /* cv-modal start */
