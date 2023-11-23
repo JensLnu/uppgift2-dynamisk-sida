@@ -58,8 +58,8 @@ a {
 /* main start */
 
 main {
-    padding: 0 1rem;
-    margin: 0 auto 2rem auto;
+    /* padding: 0 1rem; */
+    margin: 0 1rem 2rem 1rem;
     max-width: 1200px;
     flex: 1;
     display: flex;
