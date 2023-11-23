@@ -1,3 +1,10 @@
+window.addEventListener("load", addFunctionality);
+
+function addFunctionality() {
+    const cvBtn = document.getElementById("cv-btn");
+    cvBtn.addEventListener("click", getCvFromJson);
+}
+
 // referens till modalen där datan ska presenteras
 const cvModal = document.getElementById("created-modal-content");
 
