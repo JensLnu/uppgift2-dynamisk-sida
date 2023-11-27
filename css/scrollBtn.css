@@ -52,7 +52,6 @@ body {
     height: 1px;
     overflow: hidden;
     word-wrap: normal !important;
-    clip: rect(1px, 1px, 1px, 1px);
 }
 
 .screen-reader-text:focus {
@@ -70,5 +69,4 @@ body {
     line-height: normal;
     color: #444;
     font-size: 1em;
-    clip: auto !important;
 }
