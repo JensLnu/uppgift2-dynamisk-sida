@@ -26,7 +26,6 @@ body {
 }
 
 /* navigergin start */
-
 header {
     background-color: var(--detail--color--light);
     padding: 1rem 0;
@@ -60,9 +59,7 @@ a {
 
 /* navigering end */
 /* main start */
-
 main {
-    /* padding: 0 1rem; */
     margin: 0 1rem 2rem 1rem;
     max-width: 1200px;
     flex: 1;
@@ -133,8 +130,7 @@ i:hover, .btn-hover:hover {
 }
 
 /* cv-modal start */
-
-.modal:target {
+.cv-modal:target {
     display: block;
     position: fixed;
     top: 0;
@@ -182,7 +178,6 @@ i:hover, .btn-hover:hover {
 
 /* cv-modal end */
 /* projekt start */
-
 #second-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -218,7 +213,6 @@ span {
 .project-card-2 {
     background-color: #444444;
     background-image: url(../images/projects/spelet.png);
-
 }
 
 .project-card-3 {
@@ -226,7 +220,6 @@ span {
     background-image: url(../images/projects/codeJamGameStation.png);
     background-size: cover;
     background-position: top;
-
 }
 
 .project-card-4 {
@@ -234,7 +227,6 @@ span {
 }
 
 /* empty-card-modal start */
-
 .empty-card-modal-content {
     position: absolute;
     top: 50%;
@@ -256,8 +248,8 @@ span {
 /* empty-card-modal end */
 /* projekt end */
 /* main end */
-/* footer start */
 
+/* footer start */
 footer {
     background-color: var(--detail--color--light);
     padding: 1rem;
@@ -286,7 +278,6 @@ li {
 /* footer end */
 
 /* media start */
-
 @media (max-width: 800px) {
     .first-section-boxes img {
         width: 80%;
@@ -294,8 +285,7 @@ li {
 }
 
 @media (max-width: 520px) {
-    /* header start */
-
+    /* header start (media query mobile)*/
     nav ul li {
         font-size: 1.5rem;
         margin: 0.4rem;
@@ -303,7 +293,6 @@ li {
 
     /* header end */
     /* main start */
-
     #first-section {
         display: flex;
         flex-direction: column;
@@ -325,12 +314,11 @@ li {
         width: 60%;
     }
 
-    /* main end */
+    /* main end (media query mobile)*/
 }
 
 @media (prefers-color-scheme: dark) {
-    /* navigergin start */
-
+    /* navigergin start (media query darkmode)*/
     body,
     .modal-content,
     .empty-card-modal-content {
@@ -347,7 +335,7 @@ li {
     }
 
     /* navigering end */
-    /* main start */
+    /* main start (media query darkmode)*/
     h1,
     h2,
     h3,
@@ -367,8 +355,7 @@ li {
         color: var(--text--color--light);
     }
 
-    /* cv-modal start */
-
+    /* cv-modal start (media query darkmode)*/
     .close-tag {
         opacity: 0.4;
     }
@@ -379,5 +366,5 @@ li {
     }
 
     /* cv-modal end */
-    /* main end */
+    /* main end (media query darkmode)*/
 }
