@@ -18,10 +18,6 @@ main {
     background-color: #6096ba;
 }
 
-.empty-card-modal-project {
-    display: none;
-}
-
 @media (max-width: 520px) {
     main {
         padding: 1rem;

@@ -1,9 +1,5 @@
 /* slideshow */
 
-.display-none {
-    display: none;
-}
-
 .slideshow {
     width: min(80vw, 1000px);
     border: 2px solid white;

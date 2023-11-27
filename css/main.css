@@ -21,6 +21,10 @@ body {
     font-size: large;
 }
 
+.display-none {
+    display: none;
+}
+
 /* navigergin start */
 
 header {
@@ -130,10 +134,6 @@ i:hover, .btn-hover:hover {
 
 /* cv-modal start */
 
-.cv-modal {
-    display: none;
-}
-
 .modal:target {
     display: block;
     position: fixed;
@@ -235,10 +235,6 @@ span {
 
 /* empty-card-modal start */
 
-.empty-card-modal {
-    display: none;
-}
-
 .empty-card-modal-content {
     position: absolute;
     top: 50%;
@@ -247,7 +243,6 @@ span {
     width: 250px;
     height: 150px;
     background-color: var(--bg--color--light);
-
 }
 
 .empty-card-modal-content a {
