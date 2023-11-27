@@ -130,7 +130,7 @@ i:hover, .btn-hover:hover {
 }
 
 /* cv-modal start */
-.cv-modal:target {
+.modal:target { /* cv modal och "empty modal" har denna klassen*/
     display: block;
     position: fixed;
     top: 0;
