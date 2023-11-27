@@ -5,8 +5,7 @@
 }
 
 .slideshow {
-    width: 80vw;
-    max-width: 1000px;
+    width: min(80vw 1000px);
     border: 2px solid white;
     position: relative;
     position: fixed;
@@ -21,6 +20,7 @@
 }
 
 #slideshow-img {
+    display: block;
     width: 100%;
 }
 

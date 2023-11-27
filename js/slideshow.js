@@ -12,11 +12,11 @@ leftArrow.addEventListener("click", moveLeft);
 rightArrow.addEventListener("click", moveRight);
 closingTag.addEventListener("click", closeSlideshow);
 images.forEach(img => {
-    img.addEventListener("click", showImageFirstTime)
+    img.addEventListener("click", showImage)
 });
 
 // visar slideshown och den bild som användaren klickat på
-function showImageFirstTime(e) {
+function showImage(e) {
     slideshowContainer.classList.remove('display-none');
     const imagesArray = Object.values(images);
     arrayIndex = imagesArray.indexOf(e.target);
@@ -24,7 +24,7 @@ function showImageFirstTime(e) {
 }
 
 // visar aktuell bild
-function showImage(i) {
+function switchImage(i) {
     arrayIndex = i;
     slideshowImage.src = images[i].src;
 }
@@ -33,14 +33,14 @@ function showImage(i) {
 function moveLeft() {
     arrayIndex--;
     if (arrayIndex < 0) arrayIndex = images.length - 1;
-    showImage(arrayIndex);
+    switchImage(arrayIndex);
 }
 
 // byter till nästa bild 
 function moveRight() {
     arrayIndex++;
     if (arrayIndex > images.length - 1) arrayIndex = 0;
-    showImage(arrayIndex);
+    switchImage(arrayIndex);
 }
 
 // stänger slideshown
