@@ -1,29 +1,22 @@
-
 // referens till modalen där datan ska presenteras
 const cvModal = document.getElementById("created-modal-content");
 
+// window.addEventListener("load", addFunctionality);
+document.addEventListener("DOMContentLoaded", addFunctionality);
+
+// aktiverar "cv" knappen
 function addFunctionality() {
-    console.log('start addFunctionality')
     const cvBtn = document.getElementById("cv-btn");
     cvBtn.addEventListener("click", getCvFromJson);
-    // const closeCvBtn = document.getElementById("close-tag-cv-modal");
-    // closeCvBtn.addEventListener("click", () => {
-    //     cvModal.innerHTML = '';
-    // });
 }
-
-// window.addEventListener("load", addFunctionality);
-addFunctionality();
 
 // hämtar json data från cv.json och gör det till ett js objekt
 async function getCvFromJson() {
-    console.log('start getCvFromJson');
-    const respone = await fetch('../json/cv.json');
+    const respone = await fetch('../json/cv.json', {mode: 'cors'});
     if (respone.ok) {
         const jsonObj = await respone.json(respone);
         // kontrollerar så att inte inläsningen görs flera gånger
-        if (cvModal.textContent == '') renderJsonObj(jsonObj); // BUGGAAR LITE FIXA SENARE!!---------------------------------------------------------
-
+        if (cvModal.textContent == '') renderJsonObj(jsonObj); 
     } else {
         cvModal.textContent = 'Error status koden är: ' + respone.status;
         console.log('Error status koden är: ' + respone.status);
