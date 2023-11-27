@@ -26,7 +26,10 @@
 
 .slideshow-btn-left,
 .slideshow-btn-right {
-    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
     width: 50px;
     height: 50px;
     position: absolute;
@@ -44,19 +47,22 @@
     right: 5%;
 }
 
-.arrow-right, .arrow-left {
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+.arrow-right,
+.arrow-left {
+    background-color: transparent; /* tarbort default värde för button-element */
+    border: none; /* tarbort default värde för button-element */
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
 }
 
 .arrow-right {
     border-left: 20px solid #000;
-    margin-left: 17px;
+    margin-left: 7px;
 }
 
 .arrow-left {
     border-right: 20px solid #000;
-    margin-right: 17px;
+    margin-right: 7px;
 }
 
 /* slideshow end */
